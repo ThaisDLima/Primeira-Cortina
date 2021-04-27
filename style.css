@@ -1,0 +1,165 @@
+.card-largura {
+    max-width: 18rem;
+}
+
+.imagem-carrose-um {
+    object-fit: cover;
+    object-position: 30% 25%;
+    height: 700px;
+}
+
+.imagem-carrose-dois {
+    object-fit: cover;
+    object-position: 30% 25%;
+    height: 700px;
+}
+
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+}
+
+.cor-especial {
+    color: darkred!important;
+}
+
+.fonte-paragrafo {
+    font-size: 20px;
+}
+
+.botao-cor-especial {
+    background-color: darkred;
+    color: white;
+}
+
+.borda-cor-especial {
+    border-color: darkred;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 200px;
+    
+}
+.rodape {
+    font-size:20px;
+}
+
+.familia {
+    border-radius: 20px;
+    width: 100%;
+    
+}
+
+.paragrafo-quem-somos {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: justify;    
+}
+
+#quem-somos {
+    margin-top: 50px;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+
+.rodape-info {
+    background-color:#f8f9fa;
+    
+}
+.nome-empresa {
+    font-size: 20px;
+}
+
+.comentário {
+    border-radius: 50%;
+}
+
+#carrosel-comentario {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.texto-comentario {
+    max-width: 500px;
+    text-align: justify;
+}
+
+.nome-comentario {
+    font-weight:500;
+    
+}
+
+@media (max-width: 576px) {
+    .ajuste-comentario {
+        text-align: left!important;
+        max-width: none;
+    }
+}
+
+@media (max-width: 576px) {
+    #img-quem-somos {
+        max-width: none;
+        flex: none;
+    }
+}
+
+@media (min-width: 768px) {
+   #img-quem-somos {
+        max-width: none;
+        flex: none;
+    }
+}
+
+@media (min-width: 768px) {
+    #ajuste-quem-somos {
+         max-width: none;
+         flex: none;
+     }
+ }
+
+ @media (min-width: 768px) {
+    .ajuste-comentario {
+         max-width: none;
+     }
+ }
+
+ @media (min-width: 992px) { 
+    #img-quem-somos {
+        max-width: 50%;
+    }
+ }
+
+ @media (min-width: 992px) { 
+    #ajuste-quem-somos {
+        max-width: 50%;
+    }
+ }
+
+ @media (min-width: 1200px) { 
+    #img-quem-somos {
+        max-width: 50%;
+    }
+ }
+
+ @media (min-width: 1200px) { 
+    #ajuste-quem-somos {
+        max-width: 50%;
+    }
+ }
+
+
+
+
+
+
+ 
+
+
+
+
+
+    
+    
+
+
